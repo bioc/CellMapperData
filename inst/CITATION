@@ -1,14 +1,12 @@
 citHeader("To cite the 'CellMapper' and 'CellMapperData' package in publications, please use:")
 
-@article{Nelms2016,
-  doi = {10.1186/s13059-016-1062-5},
-  url = {http://dx.doi.org/10.1186/s13059-016-1062-5},
-  year  = {2016},
-  month = {sep},
-  publisher = {Springer Nature},
-  volume = {17},
-  number = {1},
-  author = {Bradlee D. Nelms and Levi Waldron and Luis A. Barrera and Andrew W. Weflen and Jeremy A. Goettel and Guoji Guo and Robert K. Montgomery and Marian R. Neutra and David T. Breault and Scott B. Snapper and Stuart H. Orkin and Martha L. Bulyk and Curtis Huttenhower and Wayne I. Lencer},
-  title = {{CellMapper}: rapid and accurate inference of gene expression in difficult-to-isolate cell types},
-  journal = {Genome Biology}
-}
+bibentry(
+ bibtype="Article",
+ title="CellMapper: rapid and accurate inference of gene expression in difficult-to-isolate cell types",
+ journal="Genome Biology",
+ year="2016",
+  volume="17",
+  number="1",
+ author=personList(as.person("Bradlee D Nelms"), as.person("Levi Waldron"), as.person("Luis A Barrera"), as.person("Andrew W Weflen"), as.person("Jeremy A Goettel"), as.person("Gouji Guo"), as.person("Robert K Montgomery"), as.person("Marian R Neutra"), as.person("David T Breault"), as.person("Scott B Snapper"), as.person("Stuart H Orkin"), as.person("Martha L Bulyk"), as.person("Curtis Huttenhower"), as.person("Wayne I Lencer")),
+ textVersion="Nelms BD, Waldron L, Barrera LA, Weflen AW, Goettel JA, Guo G, Montgomery RK, Neutra MR, Breault DT, Snapper SB, Orkin SH, Bulyk ML, Huttenhower C, and WI Lencer. Rapid and accurate inference of gene expression in difficult-to-isolate cell types. Genome Biology 2016, 17(1)." )
+
